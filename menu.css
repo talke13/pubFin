@@ -1,0 +1,24 @@
+body{
+	background-image:url("https://wallpaperplay.com/walls/full/c/9/f/215809.jpg");
+	background-repeat: no-repeat;
+	 background-position: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

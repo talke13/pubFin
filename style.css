@@ -1,0 +1,91 @@
+form{
+	background-color: #ff4d4d;
+}
+.footer {
+  background-color: #949245;
+  padding: 50px;
+  text-align: left;
+
+}
+p{
+	margin: 0px;
+ 
+}
+main{
+	background-color: black;
+	background-image:url("ThePub.jpg") ;
+	background-repeat: no-repeat;
+	  background-position: center;
+	opacity: 0.5;
+}
+.navbar{
+	display: none;
+}
+h1{
+	font-family: Times New Roman;
+}
+h2, p{
+	color: white;
+}
+*{
+box-sizing: border-box;
+}
+.mimg{
+	width: 50px;
+	height: 50px;
+}
+body{
+margin:0;
+}
+.header {
+background-color: #949245;
+padding: 20px;
+text-align: center;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 15px;
+  			
+		}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.navbar{
+width: 500%
+background-color: #555;
+overflow: auto;
+}
+.navbar a{
+float: left;
+padding: 12px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover {
+background-color: #949245;
+}
+.active {
+background-color:#555;
+}
+@media screen and (max-width: 500px){
+.navbar a{
+float: none;
+display: block;
+}
+@media screen and (max-width:600px) {
+.column {
+width: 100%;
+}
+}
+.header{
+background-color: #949245;
+padding: 15px;
+text-align: center;
+}
+td{
+width: 20px;
+}
